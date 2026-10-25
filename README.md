@@ -21,12 +21,4 @@ For security vulnerabilities, use the private reporting instructions in [SECURIT
 
 Be kind, specific and patient. Follow our [Code of Conduct](CODE_OF_CONDUCT.md). GitHub sign-in is required to open issues or discussions. Email does not require a GitHub account.
 
-## Maintainer setup
 
-1. Review and publish these files to the main branch.
-2. Enable Issues and Discussions in repository settings. Create Ideas (open-ended) and Q&A (question/answer) categories.
-3. Enable private vulnerability reporting if available for the repository. Keep email as a fallback.
-4. Enable GitHub secret scanning/push protection where available. Protect main and require review for changes to templates and security guidance when there is a second maintainer.
-5. Keep a single issue per problem, label verified reports, and publish only fixes or workaround instructions that do not expose private information.
-
-Until Discussions is enabled, the issue forms for ideas/questions work without extra configuration.
