@@ -1,0 +1,21 @@
+name: Ask a question
+description: Get help with a tool or its installation.
+title: '[Question] '
+body:
+  - type: markdown
+    attributes:
+      value: 'This report is public. Do not include passwords, tokens, clipboard contents or unredacted diagnostics. Security issues belong in the private channel in SECURITY.md.'
+  - type: input
+    id: tool
+    attributes:
+      label: Tool
+      placeholder: Notch
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Include the app version and macOS version if relevant.
+    validations:
+      required: true

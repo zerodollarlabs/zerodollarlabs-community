@@ -1,0 +1,20 @@
+name: Suggest a tool or feature
+description: Share a small task that deserves a thoughtful tool.
+title: '[Idea] '
+body:
+  - type: input
+    id: tool
+    attributes:
+      label: Existing tool or new tool
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your suggestion
+    validations:
+      required: true
